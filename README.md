@@ -16,22 +16,28 @@ Rules compiled into tools are 100% enforced, cost zero tokens, and self-verify o
 
 ### Install
 
+**ClawHub** (OpenClaw)
+
+```bash
+clawhub install rule-toolkit
+```
+
 **Claude Code**
 
 ```bash
-npx skills add dachung/rule-toolkit
+npx skills add dachunggan/rule-toolkit
 ```
 
-**OpenClaw**
+**OpenClaw** (direct)
 
 ```bash
-openclaw skills install dachung/rule-toolkit
+openclaw skills install dachunggan/rule-toolkit
 ```
 
 **Cursor / Copilot / Other**
 
 ```bash
-git clone https://github.com/dachung/rule-toolkit.git ~/.claude/skills/rule-toolkit
+git clone https://github.com/dachunggan/rule-toolkit.git ~/.claude/skills/rule-toolkit
 ```
 
 ### What It Does
@@ -122,22 +128,28 @@ MIT
 
 ### 安装
 
+**ClawHub** (OpenClaw)
+
+```bash
+clawhub install rule-toolkit
+```
+
 **Claude Code**
 
 ```bash
-npx skills add dachung/rule-toolkit
+npx skills add dachunggan/rule-toolkit
 ```
 
-**OpenClaw**
+**OpenClaw** (直接安装)
 
 ```bash
-openclaw skills install dachung/rule-toolkit
+openclaw skills install dachunggan/rule-toolkit
 ```
 
 **Cursor / Copilot / 其他**
 
 ```bash
-git clone https://github.com/dachung/rule-toolkit.git ~/.claude/skills/rule-toolkit
+git clone https://github.com/dachunggan/rule-toolkit.git ~/.claude/skills/rule-toolkit
 ```
 
 ### 功能
