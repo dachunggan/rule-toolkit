@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sensitive files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials.json
+secrets.json
+
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Misc
+*.log
+*.tmp
