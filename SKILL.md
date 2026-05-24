@@ -1,5 +1,6 @@
 ---
 name: rule-toolkit
+version: 1.0.0
 description: Scan constraint files (CLAUDE.md, agents.md, soul.md, tools.md, bootstrap.md, .cursorrules) across AI coding platforms, identify rules enforceable by tools, and auto-generate linters, hooks, validators, and wrapper functions. Use when setting up a new project, onboarding an existing codebase, or when the user says "convert rules to tools", "make rules enforceable", "automate my CLAUDE.md rules", or "toolify constraints".
 license: MIT
 compatibility: "Requires Node.js 18+ for ESLint/Prettier/Husky generation. Python projects use ruff. Works with Claude Code, OpenClaw, Cursor, Copilot, and any Agent Skills compatible tool."
