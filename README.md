@@ -94,14 +94,16 @@ Token savings: ~500 tokens/conversation
 
 ```
 rule-toolkit/
-├── SKILL.md                    # Main skill instructions
-├── LICENSE                     # MIT
-├── README.md                   # This file
-├── references/
-│   ├── tool-patterns.md        # Detailed generation patterns
-│   └── openclaw-hooks.md       # OpenClaw-specific hooks reference
-└── scripts/
-    └── detect-rules.sh         # Dry-run rule detection script
+├── LICENSE
+├── README.md
+└── skills/
+    └── rule-toolkit/
+        ├── SKILL.md                    # Main skill instructions
+        ├── references/
+        │   ├── tool-patterns.md        # Detailed generation patterns
+        │   └── openclaw-hooks.md       # OpenClaw-specific hooks reference
+        └── scripts/
+            └── detect-rules.sh         # Dry-run rule detection script
 ```
 
 ### License
@@ -206,14 +208,16 @@ Token 节省: ~500 tokens/对话
 
 ```
 rule-toolkit/
-├── SKILL.md                    # 主指令文件
-├── LICENSE                     # MIT 协议
-├── README.md                   # 本文件
-├── references/
-│   ├── tool-patterns.md        # 详细生成模式参考
-│   └── openclaw-hooks.md       # OpenClaw hooks 专属参考
-└── scripts/
-    └── detect-rules.sh         # 干运行检测脚本
+├── LICENSE
+├── README.md
+└── skills/
+    └── rule-toolkit/
+        ├── SKILL.md                    # 主指令文件
+        ├── references/
+        │   ├── tool-patterns.md        # 详细生成模式参考
+        │   └── openclaw-hooks.md       # OpenClaw hooks 专属参考
+        └── scripts/
+            └── detect-rules.sh         # 干运行检测脚本
 ```
 
 ### 许可证
